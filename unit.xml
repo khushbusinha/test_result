@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/projects/challenge/src/App.test.js" errors="0" package="/projects/challenge/src/App.test.js" hostname="localhost" tests="15" failures="14" time="1.255" timestamp="2019-09-24T17:34:06">
+    <properties>
+    </properties>
+    <testcase classname="renders without crashing" name="renders without crashing" time="0">
+    </testcase>
+    <testcase classname="should show no results message" name="should show no results message" time="0">
+      <failure message="Error: expect(received).not.toBe(expected) // Object.is equality
+
+Expected: null
+Received: null
+    at Object.toBe (/projects/challenge/src/App.test.js:66:26)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding a new row" name="should add a row with valid data" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:75:30)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding a new row" name="should not add the row if ratings is empty" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:89:30)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding a new row" name="should not add the row if name is empty" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:103:30)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding a new row" name="should not add the row if duration is empty" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:117:30)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding a new row" name="should not add the row if data invalid" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:131:30)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding multiple rows" name="should have added 5 rows" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:164:30)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding multiple rows" name="should show the table in sorted order" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:174:30)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding multiple rows" name="should not show the no result message" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;name-input&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at setMovieNameIn (/projects/challenge/src/App.test.js:13:17)
+    at setMovieNameIn (/projects/challenge/src/App.test.js:34:5)
+    at Object.createTableFromFixtureIn (/projects/challenge/src/App.test.js:189:5)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="filtering results" name="should not filter before 2 keys" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;name-input&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at setMovieNameIn (/projects/challenge/src/App.test.js:13:17)
+    at setMovieNameIn (/projects/challenge/src/App.test.js:34:5)
+    at Object.createTableFromFixtureIn (/projects/challenge/src/App.test.js:204:7)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="filtering results" name="should filter results" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:214:32)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="filtering results" name="should show new entries when added which pass the filter" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:232:32)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="filtering results" name="should show no results message when filtered result empty" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:251:32)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding multiple rows" name="should update an existing record based the movie name" time="0">
+      <failure message="Error: Unable to find an element by: [id=&quot;directory-table&quot;]
+
+[36m&lt;div&gt;[39m
+  [36m&lt;div&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;form&gt;[39m
+        [36m&lt;input[39m
+          [33mid[39m=[32m&quot;ratings-input&quot;[39m
+          [33mtype[39m=[32m&quot;text&quot;[39m
+        [36m/&gt;[39m
+      [36m&lt;/form&gt;[39m
+    [36m&lt;/div&gt;[39m
+    [0mHackerRank React Quiz[0m
+  [36m&lt;/div&gt;[39m
+[36m&lt;/div&gt;[39m
+    at getElementError (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:30:10)
+    at getAllByTestId (/projects/challenge/src/test-utils.js:19:11)
+    at Object.firstResultOrNull (/projects/challenge/node_modules/dom-testing-library/dist/query-helpers.js:38:30)
+    at firstResultOrNull (/projects/challenge/src/test-utils.js:28:23)
+    at tableRowsIn (/projects/challenge/src/App.test.js:8:17)
+    at Object.tableRowsIn (/projects/challenge/src/App.test.js:272:30)
+    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at promise.then (/projects/challenge/node_modules/jest-jasmine2/build/queue_runner.js:87:41)
+    at &lt;anonymous&gt;" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
